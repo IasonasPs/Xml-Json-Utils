@@ -9,7 +9,7 @@ namespace XmlReader
         {
             XmlDocument xml = new XmlDocument();
 
-            Console.WriteLine("Enter the name of the XML file you want read");
+            Console.WriteLine("Enter the name of the XML file you want to read");
             var name = Console.ReadLine();
 
             string filename = name + ".xml";
